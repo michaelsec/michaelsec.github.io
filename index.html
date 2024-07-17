@@ -1,7 +1,170 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael Shanosky | Cybersecurity Professional</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #ddd;
+            background-color: #121212;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #1f1f1f;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #bbb;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            color: #fff;
+        }
+        .header-content h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .header-content p {
+            margin: 0;
+            font-size: 1.2em;
+        }
+        section {
+            padding: 2em 10%;
+            text-align: center;
+            margin: 20px auto;
+            max-width: 1200px;
+        }
+        section h2 {
+            color: #4CAF50;
+            margin-bottom: 20px;
+            font-size: 2em;
+        }
+        #about p, #contact p {
+            max-width: 800px;
+            margin: 0 auto;
+            font-size: 1.1em;
+        }
+        #skills ul, #projects ul, #contact ul {
+            list-style: none;
+            padding: 0;
+            margin: 0 auto;
+            max-width: 800px;
+        }
+        #skills ul li, #projects ul li, #contact ul li {
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #1f1f1f;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        #skills ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        #skills ul li {
+            flex: 1 1 calc(33.333% - 20px);
+            margin: 10px;
+        }
+        footer {
+            background-color: #1f1f1f;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            width: 100%;
+            bottom: 0;
+        }
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-content">
+            <h1>Michael Shanosky</h1>
+            <p>Cybersecurity Professional</p>
+        </div>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Michael Shanosky, a cybersecurity professional with over 3 years of IT experience. I specialize in threat analysis, penetration testing, and incident response. My mission is to secure digital assets and ensure the resilience of organizations against cyber attacks. I have worked on various projects, ranging from implementing advanced threat detection systems to developing incident response protocols. I am passionate about staying updated with the latest trends in cybersecurity and continuously improving my skills. In my free time, I enjoy reading about new technologies, participating in cybersecurity challenges, and contributing to open-source projects. My goal is to make the digital world a safer place for everyone.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Threat Analysis</li>
+            <li>Penetration Testing</li>
+            <li>Incident Response</li>
+            <li>Network Security</li>
+            <li>Firewall Management</li>
+            <li>Security Audits</li>
+            <li>Vulnerability Assessment</li>
+            <li>Security Policy Development</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>
+                <h3>Project A</h3>
+                <p>Description of Project A. This project involved implementing advanced threat detection systems to enhance network security and prevent unauthorized access.</p>
+            </li>
+            <li>
+                <h3>Project B</h3>
+                <p>Description of Project B. This project focused on conducting comprehensive penetration testing to identify and mitigate vulnerabilities in enterprise applications.</p>
+            </li>
+            <li>
+                <h3>Project C</h3>
+                <p>Description of Project C. In this project, I developed incident response protocols that significantly reduced the impact of security breaches.</p>
+            </li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>If you'd like to get in touch, you can reach me at:</p>
+        <ul>
+            <li>Email: <a href="mailto:michael.shanosky1@gmail.com">michael.shanosky1@gmail.com</a></li>
+            <li>GitHub: <a href="https://github.com/michaelsec" target="_blank">github.com/michaelsec</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Michael Shanosky. All rights reserved.</p>
+    </footer>
 </body>
 </html>
